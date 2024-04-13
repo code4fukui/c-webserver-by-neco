@@ -35,7 +35,7 @@ void request(int argc, void *argv[]) {
     int fd = *(int*)argv[0];
     char req[256];
     int n = neco_read(fd, req, sizeof(req));
-    if (n < 0) { // リクエストが取得できない時
+    if (n <= 0) { // リクエストが取得できない時
         close(fd);
         return;
     }
