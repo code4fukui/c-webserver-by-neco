@@ -87,7 +87,6 @@ void request(int argc, void *argv[]) {
                 "Content-Length: %d\r\n"
                 "\r\n", ctype, (int)size);
     neco_write(fd, buf, strlen(buf));
-
     int fdf = open(path, O_RDONLY);
     for (;;) {
         int n = neco_read(fdf, buf, sizeof(buf));
