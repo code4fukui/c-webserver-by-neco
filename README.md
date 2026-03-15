@@ -1,8 +1,8 @@
-# webserver in C language 
+# c-webserver-by-neco
 
 A web server implementation in C language with neco.
 
-## Using
+## Usage
 
 ```sh
 cc -c server.c neco.c
