@@ -3,7 +3,7 @@
 Cで実装されたWebサーバーです。[neco](https://github.com/tidwall/neco)ライブラリを使用しています。
 
 ## デモ
-`http://localhost:8080/`にアクセスすると、サーバーが起動します。
+`http://localhost:8080/`にアクセスするとサーバーが起動します。
 
 ## 機能
 - Cで簡単なWebサーバーを実装

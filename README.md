@@ -2,7 +2,7 @@
 
 > 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-A web server implementation in C language with neco.
+A web server implementation in C language with [neco](https://github.com/tidwall/neco) library.
 
 ## Usage
 
@@ -10,7 +10,7 @@ A web server implementation in C language with neco.
 cc -c server.c neco.c
 ./a.out 8080
 ```
-open http://localhost:8080/
+Open `http://localhost:8080/` to access the server.
 
 ## Dependencies
 
@@ -18,4 +18,4 @@ open http://localhost:8080/
 
 ## License
 
-Source code is available under the MIT [License](LICENSE).
+Source code is available under the MIT License.
